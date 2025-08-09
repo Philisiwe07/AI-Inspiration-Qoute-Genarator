@@ -15,10 +15,30 @@ h1{
     font-family: Arial, sans-serif;
     font-size: 35px;
 }
+form {
+    display: flex;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
 .prompt {
     width: 80%;
-    padding: 10px;
+    padding: 14px 24px;
     margin-bottom: 10px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
+    border: none;
+    border-radius: 30px;
+    line-height: 20px;
+    font-size: 16px;
+    color: whitesmoke;
+}
+.generator {
+    margin-left:10px ;
+    width: 20%;
+    padding: 14px 24px;
+    background-color: #e1a4c4;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 16px;
 }

@@ -22,10 +22,15 @@ let context = "you are a poet, write a poem based on the prompt given";
 let apiURL = `https://api.shecodes.io/ai/v1/generate?prompt=${prompt}&context=${context}&key=${apiKey}`;
 
 
-axios.get(apiURL).then(displayPoem);
+let poemElement = document.querySelector("#poem");
+poemElement.classList.remove("hidden");
+poemElement.innerHTML = " ⌛generating poem"; // Clear previous poem
+
+
+axios.get(apiURL).then(displayPoem);S
 console.log(response);
 
-      
+      S
 }
 
 

@@ -50,3 +50,13 @@ form {
     box-shadow: 0 2px 4px rgba(181, 217, 242, 0.1);
     margin-top: 20px;
 }
+ a {
+    color: #007bff;
+    display: inline-block;
+}
+p{
+    font-size: 14px;
+    color: #555;
+    margin-top: 10px;
+    text-align: center;
+}
